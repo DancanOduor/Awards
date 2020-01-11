@@ -30,7 +30,6 @@ ACCOUNT_ACTIVATION_DAYS=7
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'uj#z43_gcyc_&wz=vfk2f2lx1+5g+kxz28mo55uz)0p2g+k3q)'
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -92,8 +91,8 @@ if config('MODE')=="dev":
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
+    DATABASES = {
+        'default': {
            'ENGINE': 'django.db.backends.postgresql_psycopg2',
            'NAME': config('DB_NAME'),
            'USER': config('DB_USER'),
