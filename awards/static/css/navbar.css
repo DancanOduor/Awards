@@ -14,12 +14,14 @@
 .form-control{
   margin-left: 20%;
 }
+
 input{
   width:50px;
   height:2px;
   color:#999;
   font-weight:
 }
+
 .navbar-brand{
   display: flex;
   justify-content: center;
@@ -28,10 +30,6 @@ input{
   margin-left: 70px;
   float: none;
 }
-.instagramlogo{
-  margin-top:1px;
-}
-
 .aw-logo{
   margin: auto;
 }
